@@ -1,0 +1,40 @@
+1642250273576	geckodriver	INFO	Listening on 127.0.0.1:62953
+1642250273982	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62954" "-foreground" "-no-remote" "-profile" "/var/folders/z1/qrx5wm_j65l9m7_7nnrz_3b40000gn/T/rust_mozprofileUXQUpY"
+1642250294845	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z1/qrx5wm_j65l9m7_7nnrz_3b40000gn/T/rust_mozprofileUXQUpY/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:62954/devtools/browser/e788adfc-3e72-4baa-921a-09ab0c968e09
+1642250296427	Marionette	INFO	Listening on port 62979
+1642250296449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642250298341	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1642250303839	Marionette	INFO	Stopped listening on port 62979
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642319785610	geckodriver	INFO	Listening on 127.0.0.1:63073
+1642319786133	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63074" "-foreground" "-no-remote" "-profile" "/var/folders/z1/qrx5wm_j65l9m7_7nnrz_3b40000gn/T/rust_mozprofileVmKrCy"
+1642319786698	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z1/qrx5wm_j65l9m7_7nnrz_3b40000gn/T/rust_mozprofileVmKrCy/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:63074/devtools/browser/22a585fd-6168-42f5-9065-ac8c88f98245
+1642319788276	Marionette	INFO	Listening on port 63079
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1642319788329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642319808478	Marionette	INFO	Stopped listening on port 63079
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642319862369	geckodriver	INFO	Listening on 127.0.0.1:63165
+1642319862896	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63166" "-foreground" "-no-remote" "-profile" "/var/folders/z1/qrx5wm_j65l9m7_7nnrz_3b40000gn/T/rust_mozprofilePDzPqt"
+1642319863285	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z1/qrx5wm_j65l9m7_7nnrz_3b40000gn/T/rust_mozprofilePDzPqt/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:63166/devtools/browser/6f825439-15cd-442e-b44d-d8801e60538c
+1642319864594	Marionette	INFO	Listening on port 63173
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1642319864665	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642319872848	Marionette	INFO	Stopped listening on port 63173
